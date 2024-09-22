@@ -2,10 +2,10 @@
 # Write a Ruby program that defines a variable that stores an Integer. 
 # The program should print out the String "even" if the Integer is even, and the String "odd" if the Integer is odd.
 
-num = 5
+num = 4
 
-if num is even
+if num % 2 == 0
     puts "even"
-else 
+else
     puts "odd"
 end
